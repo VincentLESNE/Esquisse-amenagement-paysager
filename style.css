@@ -128,9 +128,6 @@ h3 {
 .typing {
   border-right: 2px solid black;
   padding-right: 5px;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
 }
 h3 {
   font-size: 1.5em;
