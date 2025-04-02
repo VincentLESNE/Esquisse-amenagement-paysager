@@ -7,6 +7,16 @@ body {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
 
 header {
   background-color: rgb(116, 185, 116);
@@ -17,11 +27,6 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 0.7em;
-}
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.25em;
-  }
 }
 nav {
   display: flex;
@@ -44,6 +49,7 @@ nav a {
     gap: 0;
   }
   nav a {
+    font-size: 1.25em;
     width: 100%;
     padding: 0.5em 0;
   }
@@ -72,16 +78,27 @@ div {
   align-items: center;
   margin: 0.5em;
   padding: 1em;
+  max-width: 70%;
+}
+.width {
   max-width: 50%;
 }
 #presentation-row-container {
-  max-width: 90%;
+  max-width: 100%;
+}
+@media (max-width: 1200px) {
+  .width {
+    max-width: 70%;
+  }
 }
 @media (max-width: 768px) {
   section,
   div {
     max-width: 90%;
     margin: 1em auto;
+  }
+  .width {
+    max-width: 90%;
   }
 }
 .separator {
