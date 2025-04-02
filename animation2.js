@@ -1,4 +1,4 @@
-const texte = "Votre paysagiste en Rhône Isère, basé à l'Isle d'Abeau";
+const texte = "Contactez nous !";
 let index = 0;
 const vitesse = 20;
 
